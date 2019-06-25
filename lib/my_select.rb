@@ -10,7 +10,7 @@ def my_select(collection)
     end
     result
   else
-    collection
+    return 
   end
 
 end
