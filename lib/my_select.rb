@@ -9,7 +9,5 @@ def my_select(collection)
       i += 1 
     end
     result
-  else
-    return Proc.new 
   end
 end
