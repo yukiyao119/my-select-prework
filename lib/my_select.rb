@@ -7,8 +7,5 @@ def my_select(collection)
         result << yield(arr[i])
         i += 1 
     end
-    result
-  else 
-    puts "Hey! No block was given!"
-  end
+
 end
