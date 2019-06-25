@@ -8,7 +8,5 @@ def my_select(collection)
         i += 1 
     end
     result
-  else 
-    puts "Hey! No block was given!"
-  end
+
 end
