@@ -10,6 +10,6 @@ def my_select(collection)
     end
     result
   else
-    return collection
+    return Proc.new 
   end
 end
