@@ -4,7 +4,8 @@ def my_select(arr)
     while i < arr.length 
       if yield(arr[i]) 
         result << arr[i]
-        i += 1 
+      end 
+      i += 1 
     end
     result
 end
