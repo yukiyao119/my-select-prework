@@ -12,5 +12,4 @@ def my_select(collection)
   else
     return collection
   end
-
 end
