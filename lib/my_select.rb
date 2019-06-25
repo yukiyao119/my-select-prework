@@ -9,6 +9,6 @@ def my_select(collection)
     end
     result
   else 
-    result
+    puts "Hey! No block was given!"
   end
 end
